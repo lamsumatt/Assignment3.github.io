@@ -1,0 +1,38 @@
+@media (max-width:992px) {
+    #nav-bar .content{
+        display: none;
+    }
+    section > .container{
+        width: 992px;
+        margin:0 auto;
+        display: block;
+        padding: 20px 10px;
+    }
+
+    #job-info .container,
+    #project .content .item-1
+    {
+        max-width: 45rem;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #certificate .content-cer h1{
+        font-size: 1rem;
+    }
+
+
+    /* project */
+    #project .project-cons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+
+    }
+    #project .content h2{
+        font-size: 1.2rem;
+    }
+    .project .item-1 p{
+        margin: 0px;
+    }
+}

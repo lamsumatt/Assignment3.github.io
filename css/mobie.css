@@ -1,0 +1,100 @@
+@media (max-width: 786px) {
+    body{
+        width: 100%;
+    }
+    section > .container{
+        width: 786px;
+        margin:0 auto;
+        display: block;
+        padding: 20px 10px;
+    }
+    
+    .container{
+        padding: 20px 0px;
+    }
+    #banner .content {
+        font-size: 1rem;
+        top: 10%;
+        display: block;
+    }
+    #nav-bar .container, #about .container, #job-info .container,
+    #project .content .item-1
+    {
+        max-width: 30rem;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #nav-bar .container a, #nav-bar .container .content{
+        margin-top: 1rem;
+        border:0px ;
+    }
+    #about .container #target, #about .container #personal-info.info {
+        padding: 10px 100px 10px 12px;
+        margin: 0px;
+    }
+
+    #job-info .container{
+        padding: 20px 0px 20px 10px;
+    }
+    #job-info .container .list-job .contents{
+        width: 20rem;
+        padding:0px;
+    }
+    .list-job .heading h1{
+        font-size: 2rem;
+    }
+
+    /* certificates */
+    #certificate .container {
+        padding: 20px 10px;
+    }
+    .container .container-cer
+    {
+        max-width: 50rem;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+    .container .container-cer .full-cer,
+    .boder .full-cer
+    {
+        display: block;
+        border-bottom: 1px solid #d6c08d;
+        margin-top: 1rem;
+        width: 29rem;
+    }
+    .boder-left {
+        border-left: none;
+    }
+   .boder-top{
+        border: none;
+        margin: 0px;
+   }
+
+   .container-cer h1, .boder .content-cer h1 {
+    font-size: 1rem;
+    margin-top: 1rem;
+   }
+   .content-cer p{
+        font-size: 0.77rem;
+   }
+   
+   /* project */
+   #project .container{
+        padding: 20px 10px;
+   }
+   #project .container .project-cons{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 28rem;
+   }
+   .project .item-1 p{
+    margin: 0px;
+    }
+   /* footer */
+   #footer .container {
+    display: flex;
+    justify-content: flex-start;
+   }
+
+} 

@@ -1,20 +1,212 @@
-@media (min-width:992px){
-    section > .container{
-        width: 1170px;
-        margin: auto;
-        display: block;
-        padding: 30px 50px;
-    }
-    .container .list-job h1{
-        font-size: 1.5rem;
-    }
-    #certificate .content-cer h1{
-        font-size: 1rem;
-    }
-    #project .content h2{
-        font-size: 1.2rem;
-    }
-    .project .item-1 p{
-        margin: 0px;
-    }
-}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+    color: #212529;
+  }
+  body {
+    overflow: auto;
+  }
+  p {
+    line-height: 1.6;
+    font-size: 18px;
+  }
+  
+  /*build banner*/
+  .banner > h1 {
+    font-size: 86px;
+  }
+  .banner > span {
+    font-size: 40px;
+  }
+  #nav-bar {
+    text-align: center;
+  }
+  #banner {
+    position: relative;
+    text-align: center;
+    color: #f7f7f7;
+  }
+  
+  .banner {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  /* nav-bar */
+  .nav-bar .nav-item {
+    display: inline-block;
+    color: black;
+    padding: 15px 25px;
+  
+    text-transform: uppercase;
+    font-weight: 600;
+  
+    text-decoration: none;
+    border-right: 1px solid #adb5bd;
+  }
+  .nav-bar .nav-item:hover {
+    background-color: black;
+    color: #f7f7f7;
+  }
+  .nav-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-bar .nav-item i {
+    color: #339af0;
+  }
+  .nav-item-1 {
+    margin-right: 100px;
+  }
+  .nav3 {
+    margin-left: 100px;
+  }
+  .nav-2 img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    border: 10px solid #339af0;
+  }
+  
+  .nav-item.nav3,
+  .nav-item.nav-item-4 {
+    border-left: 1px solid #adb5bd;
+  }
+  /* career and information */
+  
+  .info {
+    background-color: #dee2e6;
+    padding: 40px;
+  }
+  
+  .career {
+    background-color: #e9ecef;
+    padding: 40px;
+  }
+  
+  .bg-grey {
+    background-color: #f1f3f5;
+  }
+  .icon-twitter,
+  .icon-facebook,
+  .icon-gplus,
+  .icon-linkedin {
+    color: #339af0;
+  }
+  /* job-info
+   */
+  
+  .hhh {
+    min-height: 600px;
+  }
+  .jjj {
+    min-height: 400px;
+  }
+  /* circle mau xanh */
+  .icon-circle {
+    color: #339af0;
+    font-size: 13px;
+    position: absolute;
+    left: -10px;
+  }
+  /* sơ thich */
+  
+  .ic-basket,
+  .ic-megaphone,
+  .ic-strategy,
+  .ic-hotairballoon {
+    color: #339af0;
+    font-size: 25px;
+  }
+  .favo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #339af0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* languages and ky nang */
+  .voice1 {
+    background: #ced4da;
+    display: inline-block;
+    height: 3px;
+    margin-right: 10px;
+    width: 45px;
+    border-radius: 4px;
+  }
+  .voice {
+    background-color: #339af0;
+    display: inline-block;
+    height: 3px;
+    margin-right: 15px;
+    width: 50px;
+    border-radius: 4px;
+  }
+  
+  /* chung chi   vaf giai thuongw */
+  
+  .open1 {
+    border-top: 2px solid #ffe066;
+  }
+  .open3 {
+    border-right: 2px solid #ffe066;
+    margin-bottom: 48px;
+  }
+  .noo {
+    background-color: #f1f3f5;
+  }
+  
+  /* project */
+  table {
+    height: 300px;
+  }
+  /* footer */
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    color: #228be6;
+    font-size: 40px;
+  }
+  #footer {
+    background-color: #e9ecef;
+  }
+  /* 9 project charter */
+  
+  /*  chiều cao của các cột  */
+  .lorem {
+    min-height: 515px;
+  }
+  .lorem1 {
+    min-height: 370px;
+  }
+  .lorem2 {
+    min-height: 909.375px;
+  }
+  .number {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #9775fa; /* màu xanh */
+    color: #fff;
+  
+    font-size: 30px;
+    border: 1px solid #495057;
+  }
+  
+  .number2 {
+    border-bottom: 1px dashed #228be6;
+  }
+  

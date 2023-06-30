@@ -1,100 +1,51 @@
 @media (max-width: 786px) {
-    body{
-        width: 100%;
+    /* navbar */
+    body .nav-bar {
+      display: flex;
+      flex-direction: column;
     }
-    section > .container{
-        width: 786px;
-        margin:0 auto;
-        display: block;
-        padding: 20px 10px;
+    body .nav-bar .nav-item-1 {
+      margin-right: 0px;
     }
-    
-    .container{
-        padding: 20px 0px;
+    body .nav-bar .nav3 {
+      margin-left: 0px;
     }
-    #banner .content {
-        font-size: 1rem;
-        top: 10%;
-        display: block;
+    #banner .img-fluid {
+      height: 500px;
     }
-    #nav-bar .container, #about .container, #job-info .container,
-    #project .content .item-1
-    {
-        max-width: 30rem;
-        display:grid;
-        grid-template-columns: repeat(1, 1fr);
+  
+    /* certificates  */
+  
+    .container .open1 {
+      border-top: 2px solid #ff8787;
+  
+      border-bottom: 2px solid #ff8787;
     }
-    #nav-bar .container a, #nav-bar .container .content{
-        margin-top: 1rem;
-        border:0px ;
+    .container .open2 {
+      border-top: 2px solid #ff8787;
+      padding-top: 48px;
     }
-    #about .container #target, #about .container #personal-info.info {
-        padding: 10px 100px 10px 12px;
-        margin: 0px;
+    .container .open3 {
+      border-right: none;
+      margin-bottom: 0;
     }
-
-    #job-info .container{
-        padding: 20px 0px 20px 10px;
+  
+    /* project
+  
+     */
+    #project .row .deve {
+      display: block;
+  
+      display: flex;
+      justify-content: flex-start;
     }
-    #job-info .container .list-job .contents{
-        width: 20rem;
-        padding:0px;
+    /* footer */
+    .hid {
+      display: none;
     }
-    .list-job .heading h1{
-        font-size: 2rem;
+    /* 9 project charter */
+    .name {
+      text-align: center;
     }
-
-    /* certificates */
-    #certificate .container {
-        padding: 20px 10px;
-    }
-    .container .container-cer
-    {
-        max-width: 50rem;
-        display:grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 0px;
-    }
-    .container .container-cer .full-cer,
-    .boder .full-cer
-    {
-        display: block;
-        border-bottom: 1px solid #d6c08d;
-        margin-top: 1rem;
-        width: 29rem;
-    }
-    .boder-left {
-        border-left: none;
-    }
-   .boder-top{
-        border: none;
-        margin: 0px;
-   }
-
-   .container-cer h1, .boder .content-cer h1 {
-    font-size: 1rem;
-    margin-top: 1rem;
-   }
-   .content-cer p{
-        font-size: 0.77rem;
-   }
-   
-   /* project */
-   #project .container{
-        padding: 20px 10px;
-   }
-   #project .container .project-cons{
-        display:grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 28rem;
-   }
-   .project .item-1 p{
-    margin: 0px;
-    }
-   /* footer */
-   #footer .container {
-    display: flex;
-    justify-content: flex-start;
-   }
-
-} 
+  }
+  

@@ -8,12 +8,10 @@
     font-family: sans-serif;
     color: #212529;
   }
-  body {
-    overflow: auto;
-  }
+
   p {
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 1rem;
   }
   
   /*build banner*/
@@ -43,10 +41,8 @@
     display: inline-block;
     color: black;
     padding: 15px 25px;
-  
     text-transform: uppercase;
     font-weight: 600;
-  
     text-decoration: none;
     border-right: 1px solid #adb5bd;
   }
@@ -62,28 +58,13 @@
   .nav-bar .nav-item i {
     color: #339af0;
   }
-  .nav-item-1 {
-    margin-right: 100px;
-  }
-  .nav3 {
-    margin-left: 100px;
-  }
-  .nav-2 img {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    width: 150px;
-    height: auto;
-    border: 10px solid #339af0;
-  }
   
-  .nav-item.nav3,
+  
+  .nav-item.nav-item-3,
   .nav-item.nav-item-4 {
     border-left: 1px solid #adb5bd;
   }
-  /* career and information */
+  /* information */
   
   .info {
     background-color: #dee2e6;
@@ -104,13 +85,17 @@
   .icon-linkedin {
     color: #339af0;
   }
+
+  .item-icon i:hover{
+    cursor: pointer;
+  }
   /* job-info
    */
   
-  .hhh {
+  .exp {
     min-height: 600px;
   }
-  .jjj {
+  .skill {
     min-height: 400px;
   }
   /* circle mau xanh */
@@ -119,8 +104,13 @@
     font-size: 13px;
     position: absolute;
     left: -10px;
+    margin-top: 1rem;
   }
-  /* sơ thich */
+
+  .card-title {
+    margin-top: 1rem;
+  }
+  /* favourite */
   
   .ic-basket,
   .ic-megaphone,
@@ -138,7 +128,14 @@
     align-items: center;
     justify-content: center;
   }
-  /* languages and ky nang */
+
+  .favo:hover{
+    cursor: pointer;
+    background-color: #00FFFF;
+    color: #228be6;
+  }
+  
+  /* languages and skill */
   .voice1 {
     background: #ced4da;
     display: inline-block;
@@ -156,7 +153,12 @@
     border-radius: 4px;
   }
   
-  /* chung chi   vaf giai thuongw */
+  .bold {
+    font-weight: 600;
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* chung chi   giai thuongw */
   
   .open1 {
     border-top: 2px solid #ffe066;
@@ -178,10 +180,14 @@
   .icon-linkedin-circled,
   .icon-github-circled {
     color: #228be6;
-    font-size: 40px;
+    font-size: 2rem;
   }
   #footer {
     background-color: #e9ecef;
+  }
+
+  #footer i:hover {
+    cursor: pointer;
   }
   /* 9 project charter */
   

@@ -1,13 +1,14 @@
 @media (max-width: 786px) {
+
     /* navbar */
     body .nav-bar {
       display: flex;
       flex-direction: column;
     }
-    body .nav-bar .nav-item-1 {
+    body {
       margin-right: 0px;
     }
-    body .nav-bar .nav3 {
+    body  {
       margin-left: 0px;
     }
     #banner .img-fluid {
